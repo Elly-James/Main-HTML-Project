@@ -1,41 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Leisure Life: Hobbies, Favorites & Football</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Leisure Life: Hobbies, Favorites & Football</title>
+    </head>
+    <body>
 
-    <h1>My Leisure Life: Hobbies, Favorites & Football</h1>
-
-
-    <nav>
-        <a href="./Hobbies/hobbies.html">Hobbies</a>
-        <a href="./Books/favoriteBooks.html">Favorite Books</a>
-        <a href="./Movies/favoriteMovies.html">Favorite Movies</a>
-        <a href="./Soccer/mySoccerTeam.html">Favorite Soccer Team</a>
-    </nav>
-
-    <h2>Go through my pages and find out what I do during my free time</h2>
-
-    <p>Welcome to <strong>my personal leisure page.</strong>
-    This website is a simple collection of the things I enjoy doing during my free time.</p>
-    <p>It gives you a glimpse into my hobbies, my favorite movies, the books I enjoy reading, and the soccer team I support.</p>
-
-    <p>Feel free to explore the different sections of this site to learn more about my interests.</p>
-    <p>You can also <em>leave a suggestion or feedback through the form provided</em>, as I’m always open to improving this page.</p>
+            <h1>My Leisure Life: Hobbies, Favorites & Football</h1>
 
 
+            <nav>
+                <a href="./Hobbies/hobbies.html">Hobbies</a>
+                <a href="./Books/favoriteBooks.html">Favorite Books</a>
+                <a href="./Movies/favoriteMovies.html">Favorite Movies</a>
+                <a href="./Soccer/mySoccerTeam.html">Favorite Soccer Team</a>
+            </nav>
+
+            <h2>Go through my pages and find out what I do during my free time</h2>
+
+            <p>Welcome to <strong>my personal leisure page.</strong>
+            This website is a simple collection of the things I enjoy doing during my free time.</p>
+            <p>It gives you a glimpse into my hobbies, my favorite movies, the books I enjoy reading, and the soccer team I support.</p>
+
+            <p>Feel free to explore the different sections of this site to learn more about my interests.</p>
+            <p>You can also <em>leave a suggestion or feedback through the form provided</em>, as I’m always open to improving this page.</p>
 
 
-    <footer>
-        <hr>
-        <p>&copy; 2026 My Leisure Life | Created by Elly James  |  All rights reserved.</p>
+
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Suggestion Form</legend>
+
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+                    <label for="page">Which page are you giving feedback on?</label><br>
+                    <select id="page" name="page">
+                        <option value="hobbies">Hobbies</option>
+                        <option value="books">Favorite Books</option>
+                        <option value="movies">Favorite Movies</option>
+                        <option value="soccer">Soccer Team</option>
+                    </select><br><br>
+
+                    <label for="rating">Rate the page (1–10):</label><br>
+                    <input type="number" id="rating" name="rating" min="1" max="10"><br><br>
+
+                    <label for="message">Your Suggestion:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your feedback here..." required></textarea><br><br>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+
+                </fieldset>
+
+            </form>
+
+
+
+
+
+            <footer>
+                <hr>
+                <p>&copy; 2026 My Leisure Life | Created by Elly James  |  All rights reserved.</p>
+                
+            </footer>
+
+
         
-    </footer>
-
-
-    
-</body>
+    </body>
 </html>
