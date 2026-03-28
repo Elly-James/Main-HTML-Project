@@ -6,74 +6,64 @@
         <title>My Leisure Life: Hobbies, Favorites & Football</title>
     </head>
     <body>
+            <header>
+                <h1>My Leisure Life: Hobbies, Favorites & Football</h1>
+                <nav>
+                    <ul>
+                        <li><a href="./Hobbies/hobbies.html">Hobbies</a></li>
+                        <li><a href="./Books/favoriteBooks.html">Favorite Books</a></li>
+                        <li><a href="./Movies/favoriteMovies.html">Favorite Movies</a></li>
+                        <li><a href="./Soccer/mySoccerTeam.html">Favorite Soccer Team</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section>
+                <h2>Go through my pages and find out what I do during my free time</h2>
+                <p>Welcome to <strong>my personal leisure page.</strong>
+                This website is a simple collection of the things I enjoy doing during my free time.</p>
+                <p>It gives you a glimpse into my hobbies, my favorite movies, the books I enjoy reading, and the soccer team I support.</p>
+                <p>Feel free to explore the different sections of this site to learn more about my interests.</p>
+                <p>You can also <em>leave a suggestion or feedback through the form provided</em>, as I’m always open to improving this page.</p>
+                <form action="#" method="post">
 
-            <h1>My Leisure Life: Hobbies, Favorites & Football</h1>
+                        <fieldset>
+                            <legend>Suggestion Form</legend>
 
+                            <label for="name">Name:</label><br>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
 
-            <nav>
-              
-                <a href="./Hobbies/hobbies.html">Hobbies</a> <br> 
-                <a href="./Books/favoriteBooks.html">Favorite Books</a> <br>
-                <a href="./Movies/favoriteMovies.html">Favorite Movies</a> <br>
-                <a href="./Soccer/mySoccerTeam.html">Favorite Soccer Team</a> <br>
-            </nav>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
 
-            <h2>Go through my pages and find out what I do during my free time</h2>
+                            <label for="page">Which page are you giving feedback on?</label><br>
+                            <select id="page" name="page">
+                                <option value="hobbies">Hobbies</option>
+                                <option value="books">Favorite Books</option>
+                                <option value="movies">Favorite Movies</option>
+                                <option value="soccer">Soccer Team</option>
+                            </select><br><br>
 
-            <p>Welcome to <strong>my personal leisure page.</strong>
-            This website is a simple collection of the things I enjoy doing during my free time.</p>
-            <p>It gives you a glimpse into my hobbies, my favorite movies, the books I enjoy reading, and the soccer team I support.</p>
+                            <label for="rating">Rate the page (1–10):</label><br>
+                            <input type="number" id="rating" name="rating" min="1" max="10"><br><br>
 
-            <p>Feel free to explore the different sections of this site to learn more about my interests.</p>
-            <p>You can also <em>leave a suggestion or feedback through the form provided</em>, as I’m always open to improving this page.</p>
+                            <label for="message">Your Suggestion:</label><br>
+                            <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your feedback here..." required></textarea><br><br>
 
-            
-            <!--The form below captures suggestions for a better improvement of the website -->
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Clear">
 
-
-            <form action="#" method="post">
-
-                <fieldset>
-                    <legend>Suggestion Form</legend>
-
-                    <label for="name">Name:</label><br>
-                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
-
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
-
-                    <label for="page">Which page are you giving feedback on?</label><br>
-                    <select id="page" name="page">
-                        <option value="hobbies">Hobbies</option>
-                        <option value="books">Favorite Books</option>
-                        <option value="movies">Favorite Movies</option>
-                        <option value="soccer">Soccer Team</option>
-                    </select><br><br>
-
-                    <label for="rating">Rate the page (1–10):</label><br>
-                    <input type="number" id="rating" name="rating" min="1" max="10"><br><br>
-
-                    <label for="message">Your Suggestion:</label><br>
-                    <textarea id="message" name="message" rows="4" cols="40" placeholder="Write your feedback here..." required></textarea><br><br>
-
-                    <input type="submit" value="Submit">
-                    <input type="reset" value="Clear">
-
-                </fieldset>
-
-            </form>
-
-
-
-
-
+                        </fieldset>
+                    </form>
+                </section>
+                <nav>
+                    <a href="./Hobbies/hobbies.html">Next page</a>
+                </nav>
+            </main>
             <footer>
                 <hr>
                 <p>&copy; 2026 My Leisure Life | Created by Elly James  |  All rights reserved.</p>
                 
             </footer>
-
-
-        
     </body>
 </html>

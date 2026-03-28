@@ -1,5 +1,6 @@
 # My Leisure Life Website
 
+[Preview Link](https://elly-james.github.io/Main-HTML-Project/)
 ## Overview
 
 This is a simple HTML project that showcases how I spend my free time. The website includes different pages that highlight my hobbies, favorite movies, books I enjoy reading, and my favorite soccer team.
